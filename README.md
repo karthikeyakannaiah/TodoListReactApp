@@ -1,5 +1,5 @@
 ## This Project is a Todo List Done with help of ReactJs
-My journey of getting good in web Development has took into a big step with help of a great frontend framework like **React**
+My journey of getting good in web Development has took a big step with help of a great frontend framework like **React**
 
 
 
