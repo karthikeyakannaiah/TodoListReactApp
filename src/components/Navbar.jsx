@@ -47,7 +47,7 @@ class Navbar extends Component {
                   className="dropdown-item text-primary"
                   href="https://letus-7d9c3.web.app/"
                 >
-                  Letus
+                  Letus <sub className="text text-secondary">Firebase</sub>
                 </a>
                 <a
                   className="dropdown-item text-primary"
@@ -60,7 +60,10 @@ class Navbar extends Component {
                   className="dropdown-item text-primary"
                   href="https://buildyourcareer-achiever.web.app/"
                 >
-                  Build Your Career
+                  Build Your Career{" "}
+                  <sub className="text text-secondary">
+                    with team<b>Achiever</b>
+                  </sub>
                 </a>
               </div>
             </li>
