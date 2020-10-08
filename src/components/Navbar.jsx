@@ -9,7 +9,11 @@ class Navbar extends Component {
     this.setState({ text: value });
   };
   handleTask = () => {
-    this.props.onAdd(this.state.text);
+    if (this.state.text === "") {
+      alert("type something");
+    } else {
+      this.props.onAdd(this.state.text);
+    }
   };
   render() {
     return (
