@@ -13,6 +13,7 @@ class Navbar extends Component {
       alert("type something");
     } else {
       this.props.onAdd(this.state.text);
+      this.setState({ text: "" });
     }
   };
   render() {
